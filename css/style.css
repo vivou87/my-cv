@@ -1,0 +1,37 @@
+
+
+
+h1{
+   color:brown; text-align: center; text-shadow: 2px 2px 2px blueviolet  ;border:2px blue solid;
+
+
+}
+
+body{
+   background-image: url(../photo.jpg/dollars_bills_currency_213590_3840x2400.jpg);background-repeat: no-repeat;
+   background-attachment: fixed;background-size: cover;background-position-x: center;
+}
+#accuiel  {
+   color:blue
+}
+
+*{
+
+   font-family: 'Roboto', sans-serif; 
+   text-transform:capitalize ;
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+
+}
+.navbar {
+   position:fixed;
+   z-index: 999;
+    background-color: aliceblue;
+   width:100%;display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:10px 200px;
+   
+}

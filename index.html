@@ -1,25 +1,36 @@
 <html lang="en">
   <head>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
   </head>
   <body>
     <!--nav section-->
-    <nav>
+    <nav class="navbar">
     <a href="#accueil">accuiel</a>
     <a href="#myeducation">à propos</a>
     <a href="#myexperience">travail</a>
     <a href="#contact">contact</a>
 
 </nav>
-
-    <h1 id="accueil">olfa kouki</h1><br>
+<div class="block">
+   <br><br><br><br> <h1 id="accueil">olfa kouki</h1><br><br>
     <h3>bienvenue</h3>
+    <h3>web developer</h3><br>
+    
+
+    </div>
     <img src="./photo.jpg/3239175_7d0bf.jpg"alt="my photo" width="300"/>
     <!--my experience section-->
-    <div>
-        <h1 id="myexperience">my experience</h1>
+    <div id="myexperience" class="block">
+        <h1 >my experience</h1><br><br>
         <ul>
             <li>2017:remote computer technician</li>
             <li>2016:primary school french teacher</li> 
@@ -27,8 +38,8 @@
     </div>
     <!--my education-->
     
-<div>
-    <h1 id="myeducation">my education</h1>
+<div id="myeducation" class="block">
+    <h1>my education</h1><br><br>
 <ul>
     <li>2023:full stack development</li>
     <li>2013:senior technician inautomation and industrial computing</li>
@@ -58,11 +69,13 @@
              <input type="tel" placeholder="entrer ton numero">
              
         </form>
-
+<!--contact-->
     </div>
-    <h3 id="contact">si vous ètes interéssé contactez moi sur mon numéro:23054765</h3><br>
+    <div class="block" id="contact">
+        <h1 >contact me</h1><br><br>
+    <h3 >si vous ètes interéssé contactez moi sur mon numéro:23054765</h3><br>
     <h3>ou bien sur mon boite email:olfapro.1987@gmail.com</h3><br>
-    
+    </div>
     
   </body>
 </html>
